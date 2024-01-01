@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #b5dded;
+
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+    /* background-color:rgb(204, 183, 203); */
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    /* background-color: hsl(62, 92%, 50%); */
+    /* background-color: #000000e5; */
+
+}
+nav ul li{
+    list-style: none;
+    margin-right:5%;
+    font-weight: 600;
+    color: #127c40;
+}
+nav ul li img{
+    height:40px;
+    width:40px;
+    border-radius: 100%;
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftmain{
+    width: 40%;
+
+}
+.leftmain h1 {
+    font-size: 60px;
+    color: #3b855b;
+}
+.leftmain p{
+    margin: 5% 0;
+    color:#06863e
+}
+.leftmain button{
+    padding: 15px 20px;
+    font-size: 180x;
+    color:white;
+    font-weight:600;
+    border:none;
+    background-color: #3b855b;
+    border-radius: 10px;
+ }
+ /* minyue 31 se ekh skte hai dougt hone pr
+  */
+  img{
+    /* width:100%; */
+    border-radius: 20%;
+ 
+   
+    
+
+  }
+  .rightmain div img:first-child{
+    margin-right:20px;
+    /* border-radius: 100px; */
+    
+  }
+  .rightmain div{
+    margin-bottom:20px;
+    /* border-radius: 100px; */
+
+  }
+  .rightmain > img{
+    /* border-radius: 100px; */
+  
+    width:64%;
+  }
+ 
